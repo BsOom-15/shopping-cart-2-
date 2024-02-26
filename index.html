@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card m-5 pt-5 ">
+        <h3 class="text-center">Shopping Cards</h3>
+        <div class="container ">
+            <div class="row m-5">
+                <!-- 1 -->
+                <div class="col-md-4 bg-white mb-5">
+                    <div class="main-content bg-body-secondary pb-5">
+                        <div class="product text-center ">
+                                <img class="img-fluid rounded-circle mt-3 mb-4" src="Imges/pexels-betül-üstün-16703782.jpg" alt="">
+                            <h4>AirPods</h4>
+                            <p class="text-black-50">Airpods with wireless <br> charging charging case active</p>
+                            <div class="d-flex justify-content-between p-4 ">
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div class="min-plus d-flex">
+                                    <h5 id="mount">1</h5>
+                                    <button id="increas" onclick="increaceValue(1)" ><i class="fa-solid fa-circle-plus"></i></button>
+                                    <h5 id="incrementTexe">0</h5>
+                                    <button id="decrease" onclick="decreaceValue(1)" ><i class="fa-solid fa-circle-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="addCards(1)" id="addButton" class="btn btn-outline-dark g-1" type="button">Add</button>
+                                <button class="btn btn-outline-dark" type="button">Delete</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 2 -->
+                <div class="col-md-4 bg-white mb-5">
+                    <div class="main-content bg-body-secondary pb-5">
+                        <div class="product text-center ">
+                                <img class="img-fluid rounded-circle mt-3 mb-4" src="Imges/elegant-watch-with-silver-golden-chain-isolated.jpg" alt="">
+                            <h4>Micheal Kors</h4>
+                            <p class="text-black-50">MK5735 Tri-tone Metal <br> Rounde Analgo Watch</p>
+                            <div class="d-flex justify-content-between p-4 ">
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div class="min-plus d-flex">
+                                    <h5 id="mount">1</h5>
+                                    <button id="increas" onclick="increaceValue(2)"><i class="fa-solid fa-circle-plus"></i></button>
+                                    <h5 id="incrementTexeTwo">0</h5>
+                                    <button id="decrease" onclick="decreaceValue(2)" ><i class="fa-solid fa-circle-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="addCards(2)" class="btn btn-outline-dark g-1" type="button">Add</button>
+                                <button class="btn btn-outline-dark" type="button">Delete</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 3 -->
+                <div class="col-md-4 bg-white mb-5">
+                    <div class="main-content bg-body-secondary pb-5">
+                        <div class="product text-center ">
+                                <img class="img-fluid rounded-circle mt-3 mb-4" src="Imges/pillows-white-background.jpg" alt="">
+                            <h4>Cushion</h4>
+                            <p class="text-black-50">cushion 44cm-44cm <br> padding fiber soft</p>
+                            <div class="d-flex justify-content-between p-4 ">
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div class="min-plus d-flex">
+                                    <button id="increas" onclick="increaceValue(3)"><i class="fa-solid fa-circle-plus"></i></button>
+                                    <h5 id="incrementTexeThree">0</h5>
+                                    <button id="decrease" onclick="decreaceValue(3)" ><i class="fa-solid fa-circle-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="addCards(3)" class="btn btn-outline-dark g-1" type="button">Add</button>
+                                <button class="btn btn-outline-dark" type="button">Delete</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 4 -->
+                <div class="col-md-4 bg-white mb-5">
+                    <div class="main-content bg-body-secondary pb-5">
+                        <div class="product text-center ">
+                                <img class="img-fluid rounded-circle mt-3 mb-4" src="Imges/laptop-balancing-with-purple-background.jpg" alt="">
+                            <h4>Laptop</h4>
+                            <p class="text-black-50">Asus laptop x515EP core i5 <br> RAM 8GB Display 15.6FHD</p>
+                            <div class="d-flex justify-content-between p-4 ">
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div class="min-plus d-flex">
+                                    <button id="increas" onclick="increaceValue(4)"><i class="fa-solid fa-circle-plus"></i></button>
+                                    <h5 id="incrementTexeFour">0</h5>
+                                    <button id="decrease" onclick="decreaceValue(4)" ><i class="fa-solid fa-circle-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="addCards(4)" class="btn btn-outline-dark g-1" type="button">Add</button>
+                                <button class="btn btn-outline-dark" type="button">Delete</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 5 -->
+                <div class="col-md-4 bg-white mb-5">
+                    <div class="main-content bg-body-secondary pb-5">
+                        <div class="product text-center ">
+                                <img class="img-fluid rounded-circle mt-3 mb-4" src="Imges/modern-microphone.jpg" alt="">
+                            <h4>Microphone</h4>
+                            <p class="text-black-50">wireless microphone lavalier <br> for pc or phone</p>
+                            <div class="d-flex justify-content-between p-4 ">
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div class="min-plus d-flex">
+                                    <button id="increas" onclick="increaceValue(5)"><i class="fa-solid fa-circle-plus"></i></button>
+                                    <h5 id="incrementTexeFive">0</h5>
+                                    <button id="decrease" onclick="decreaceValue(5)" ><i class="fa-solid fa-circle-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="addCards(5)" class="btn btn-outline-dark g-1" type="button">Add</button>
+                                <button class="btn btn-outline-dark" type="button">Delete</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- 6 -->
+                <div class="col-md-4 bg-white mb-5">
+                    <div class="main-content bg-body-secondary pb-5">
+                        <div class="product text-center ">
+                                <img class="img-fluid rounded-circle mt-3 mb-4" src="Imges/3794066.jpg" alt="">
+                            <h4>Smart Watch</h4>
+                            <p class="text-black-50">Samsung SM-R900NdZASVT <br> Galaxy Watch5 40mm black</p>
+                            <div class="d-flex justify-content-between p-4 ">
+                                <i class="fa-regular fa-heart"></i>
+
+                                <div class="min-plus d-flex">
+                                    <button id="increas" onclick="increaceValue(6)"><i class="fa-solid fa-circle-plus"></i></button>
+                                    <h5 id="incrementTexeSix">0</h5>
+                                    <button id="decrease" onclick="decreaceValue(6)" ><i class="fa-solid fa-circle-minus"></i></button>
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 d-md-block">
+                                <button onclick="addCards(6)" class="btn btn-outline-dark g-1" type="button">Add</button>
+                                <button class="btn btn-outline-dark" type="button">Delete</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!-- creat card using js -->
+                <div id="cards">
+                    
+                        </div>
+                </div>
+                <!-- end div -->
+
+
+                <!-- end -->
+                <h4 id="total" class="text-center pb-4 ">Total Amount:</h4>
+            </div>
+        </div>
+    </div>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/all.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+</html>
+

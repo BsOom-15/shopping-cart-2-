@@ -1,0 +1,41 @@
+body{
+    background-color: #2e373d;
+}
+
+img{
+    border-radius: 50%;
+    width: 25%;
+}
+
+.product svg{
+    cursor: pointer;
+}
+
+p{
+    font-size: 12px;
+}
+
+/* #plus{
+    border: none;
+}
+
+#mine{
+    border: none;
+} */
+
+button{
+    border: none;
+}
+
+#icon{
+    color: red;
+}
+
+.product img{
+    width: 22%;
+    height:80px;
+}
+
+.product{
+    font-family: 'Signika Negative', sans-serif;
+}
